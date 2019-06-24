@@ -3,7 +3,7 @@ package com.lxh.entity;
 import java.io.Serializable;
 
 /**
- * @Auther: 梦学谷
+ * @Auther: 李旭辉
  */
 public class Product implements Serializable {
 

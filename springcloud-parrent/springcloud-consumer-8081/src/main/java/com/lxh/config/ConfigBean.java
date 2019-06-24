@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @Auther: 梦学谷
+ * @Auther: 李旭辉
  */
 @Configuration //标识配置类
 public class ConfigBean {

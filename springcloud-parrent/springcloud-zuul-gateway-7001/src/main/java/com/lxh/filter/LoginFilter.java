@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
 /**
- * @Auther: 梦学谷
+ * @Auther: 李旭辉
  */
 @Component //一定不要少了
 public class LoginFilter extends ZuulFilter {

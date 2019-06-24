@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.List;
 
 /**
- * @Auther: 梦学谷
+ * @Auther: 李旭辉
  */
 @RestController
 public class ProductControllerConsumer {

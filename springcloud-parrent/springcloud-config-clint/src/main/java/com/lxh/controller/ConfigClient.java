@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @Auther: 梦学谷
+ * @Auther: 李旭辉
  */
 @RestController
 public class ConfigClient {

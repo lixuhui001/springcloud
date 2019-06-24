@@ -6,7 +6,7 @@ import com.lxh.entity.Product;
 import java.util.List;
 
 /**
- * @Auther: 梦学谷
+ * @Auther: 李旭辉
  */
 public interface ProductService {
 

@@ -5,7 +5,7 @@ import com.lxh.entity.Product;
 import java.util.List;
 
 /**
- * @Auther: 梦学谷
+ * @Auther: 李旭辉
  */
 //@Mapper //或者在启动类上标识 @MapperScan
 public interface ProductMapper {
