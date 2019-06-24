@@ -1,0 +1,6 @@
+D:\workspace\fetchview\springcloud_01\springcloud-parrent\springcloud-consumer-8081\src\main\java\com\lxh\Consumer8081.java
+D:\workspace\fetchview\springcloud_01\springcloud-parrent\springcloud-consumer-8081\src\main\java\com\lxh\config\ConfigBean.java
+D:\workspace\fetchview\springcloud_01\springcloud-parrent\springcloud-consumer-8081\src\main\java\com\lxh\common\LogAspect.java
+D:\workspace\fetchview\springcloud_01\springcloud-parrent\springcloud-consumer-8081\src\main\java\com\lxh\service\ProductClientServiceFallBack.java
+D:\workspace\fetchview\springcloud_01\springcloud-parrent\springcloud-consumer-8081\src\main\java\com\lxh\controller\ProductController_Feign.java
+D:\workspace\fetchview\springcloud_01\springcloud-parrent\springcloud-consumer-8081\src\main\java\com\lxh\service\ProductClientService.java

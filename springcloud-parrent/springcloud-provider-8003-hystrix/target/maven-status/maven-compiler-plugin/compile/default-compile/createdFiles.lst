@@ -1,0 +1,6 @@
+com\lxh\controller\ProductController.class
+com\lxh\Provider8003.class
+com\lxh\common\LogAspect.class
+com\lxh\service\impl\ProductServiceImpl.class
+com\lxh\service\ProductService.class
+com\lxh\dao\ProductMapper.class
