@@ -1,20 +1,19 @@
 package com.lxh.controller;
 
 import com.lxh.entity.Product;
-import com.lxh.service.ProductClientService;
+import com.lxh.service.ProviderClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
 @RestController
-public class ProductController_Feign {
+public class ProductConsumerController_Feign {
 
    @Autowired
-   ProductClientService service;
+   ProviderClientService service;
 
     @RequestMapping(value = "/consumer/product/add")
     public boolean add(Product product) {

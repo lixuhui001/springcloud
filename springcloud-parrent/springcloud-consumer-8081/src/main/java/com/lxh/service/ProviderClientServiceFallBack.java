@@ -8,9 +8,9 @@ import java.util.List;
 /**
  * @Auther: 李旭辉
  */
-//Caused by: java.lang.IllegalStateException: No fallback instance of type class com.lxh.service.ProductClientServiceFallBack found for feign client microservice-product
+//Caused by: java.lang.IllegalStateException: No fallback instance of type class com.lxh.service.ProductClientServiceFallBack found for feign client lxh-provider
 @Component //一定要加上它,将它纳入到容器中
-public class ProductClientServiceFallBack implements ProductClientService{
+public class ProviderClientServiceFallBack implements ProviderClientService{
 
 
     @Override

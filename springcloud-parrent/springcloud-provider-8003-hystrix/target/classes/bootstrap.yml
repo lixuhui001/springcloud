@@ -1,0 +1,24 @@
+spring:
+  cloud:
+    config:
+      name: springcloud-provider-config #github上的配置名称，注意没有yml后缀名
+      profile: 8003    #本次访问的环境配置项
+      label: master   #远程库的分支名
+      uri: http://localhost:5001 #Config配置中心地址，通过它获取microservice-config-application.yml配置信息
+  rabbitmq:
+      host: 203.195.155.100
+      port: 5672
+      username: lixuhui
+      password: 123456
+#  暴露触发消息总线的地址
+management:
+
+  endpoints:
+    enabled: true
+    web:
+      exposure:
+        include: bus-refresh
+
+
+
+

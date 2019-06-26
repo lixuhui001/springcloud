@@ -1,0 +1,4 @@
+com\lxh\config\ConfigBean.class
+com\lxh\controller\ProductControllerConsumer.class
+com\lxh\Consumer8080.class
+com\lxh\common\LogAspect.class

@@ -3,9 +3,15 @@ server:
 
 spring:
   application:
-    name: microservice-config
+    name: lxh-config-server
   cloud:
     config:
       server:
         git: # 远程库的git地址
           uri: https://github.com/lixuhui001/spring-cloud-config.git
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

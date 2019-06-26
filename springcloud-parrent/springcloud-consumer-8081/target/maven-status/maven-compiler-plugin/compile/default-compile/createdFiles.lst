@@ -1,0 +1,6 @@
+com\lxh\config\ConfigBean.class
+com\lxh\common\LogAspect.class
+com\lxh\controller\ProductController_Feign.class
+com\lxh\service\ProductClientService.class
+com\lxh\Consumer8081.class
+com\lxh\service\ProductClientServiceFallBack.class

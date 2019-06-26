@@ -3,4 +3,4 @@ server:
 
 spring:
   application:
-    name: microservice-config-client
+    name: lxh-config-client

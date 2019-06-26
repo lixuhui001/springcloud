@@ -20,7 +20,7 @@ public class ConfigClient {
     @GetMapping("/config")
     public String config() {
         String content = "applicationName: " + applicationName + ", port: " + port;
-        System.out.println(content);
+        System.out.println("当前配置为： " + content);
         return content;
     }
 }

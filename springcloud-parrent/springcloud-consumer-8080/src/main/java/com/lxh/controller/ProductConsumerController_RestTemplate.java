@@ -1,5 +1,6 @@
 package com.lxh.controller;
 
+import com.lxh.constans.SpringConstans;
 import com.lxh.entity.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -13,11 +14,10 @@ import java.util.List;
  * @Auther: 李旭辉
  */
 @RestController
-public class ProductControllerConsumer {
+public class ProductConsumerController_RestTemplate {
 
-//    private static final String REST_URL_PREFIX = "http://localhost:8001";
     //修改为服务提供者向Eureka注册的服务名
-    private static final String REST_URL_PREFIX = "http://microservice-product";
+    private static final String REST_URL_PREFIX = "http://" + SpringConstans.PROVIDER_NAME;
 
     @Autowired
     private RestTemplate restTemplate;
@@ -36,7 +36,6 @@ public class ProductControllerConsumer {
     public List<Product> list() {
         return restTemplate.getForObject(REST_URL_PREFIX + "/product/list", List.class);
     }
-
 
 
 }
